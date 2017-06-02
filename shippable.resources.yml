@@ -12,7 +12,7 @@ resources:
     flags: t1
   - name: sample_img_pub
     type: image
-    integration: ship-docker
+    integration: ship-docker-1
     pointer:
       sourceName: "shippabledocker/pipelinev2"
     seed:
