@@ -5,7 +5,7 @@ jobs:
     allowPublicAccess: false
     steps:
       - IN: sample-pub
-      - IN: trigger01
+     # - IN: trigger01
     #  - IN: test-trigger01
       - TASK:
         - script: IN/sample-pub/gitRepo/echo.sh
