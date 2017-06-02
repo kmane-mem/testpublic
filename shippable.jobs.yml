@@ -18,3 +18,10 @@ jobs:
       - IN: sample-pub
       - TASK:
         - script: IN/sample-pub/gitRepo/echo.sh
+        
+        
+  - name: manifest_dep
+    type: manifest
+    steps:
+      - IN: sample_img_pub       
+      - IN: t1
