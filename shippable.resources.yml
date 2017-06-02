@@ -10,3 +10,10 @@ resources:
     seed:
       interval: "*/4 * * * *"
     flags: t1
+  - name: sample_img_pub
+    type: image
+    integration: ship-docker
+    pointer:
+      sourceName: "shippabledocker/pipelinev2"
+    seed:
+      versionName: "deploy.2"
