@@ -1,0 +1,20 @@
+
+jobs:
+  - name: runsh-job-pub
+    type: runSh
+    allowPublicAccess: false
+    steps:
+      - IN: sample-pub
+      - IN: trigger01
+    #  - IN: test-trigger01
+      - TASK:
+        - script: IN/sample-pub/gitRepo/echo.sh
+    flags: job1
+    
+  - name: runcliscript-job-pub
+    type: runCLI
+    allowPublicAccess: false
+    steps:      
+      - IN: sample-pub
+      - TASK:
+        - script: IN/sample-pub/gitRepo/echo.sh
