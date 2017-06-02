@@ -3,7 +3,7 @@ resources:
     type: gitRepo
     integration: github
     pointer:
-      sourceName: shiptestlink/sample-script-3
+      sourceName: rc-testorg/sample-script-3
       branch: master
   - name: test-trigger01-pub
     type: time
