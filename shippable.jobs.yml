@@ -24,4 +24,4 @@ jobs:
     type: manifest
     steps:
       - IN: sample_img_pub       
-      - IN: t1
+     # - IN: t1
