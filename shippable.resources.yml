@@ -1,0 +1,12 @@
+resources:
+  - name: sample-pub
+    type: gitRepo
+    integration: github
+    pointer:
+      sourceName: shiptestlink/sample-script-3
+      branch: master
+  - name: test-trigger01-pub
+    type: time
+    seed:
+      interval: "*/4 * * * *"
+    flags: t1
