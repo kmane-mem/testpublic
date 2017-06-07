@@ -13,7 +13,7 @@ jobs:
     
   - name: runcliscript-job-pub
     type: runCLI
-    allowPublicAccess: false
+    allowPublicAccess: true
     steps:      
       - IN: sample-pub
       - TASK:
