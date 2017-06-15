@@ -3,6 +3,7 @@ jobs:
   - name: runsh-job-pub
     type: runSh
     allowPublicAccess: false
+    showBuildStatus: true
     steps:
       - IN: sample-pub
      # - IN: trigger01
@@ -14,6 +15,7 @@ jobs:
   - name: runcliscript-job-pub
     type: runCLI
     allowPublicAccess: true
+    showBuildStatus: true
     steps:      
       - IN: sample-pub
       - TASK:
