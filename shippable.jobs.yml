@@ -6,7 +6,7 @@ jobs:
     
     steps:
       - IN: sample-pub
-       # showBuildStatus: true
+        showBuildStatus: true
      # - IN: trigger01
     #  - IN: test-trigger01
       - TASK:
