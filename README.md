@@ -1,4 +1,6 @@
 [![Run Status](https://rcapi.shippable.com/projects/5902e82dbb7fa80500494a99/badge?branch=master)](https://rcapp.shippable.com/github/rc-testorg/coretest_orgpublicrepo) 
+
+[![Coverage Badge](https://rcapi.shippable.com/projects/5902e82dbb7fa80500494a99/coverageBadge?branch=master)](https://rcapp.shippable.com/github/rc-testorg/coretest_orgpublicrepo)
 # coretest_singlebuildNod
 A SampleNod project to test basic cases for a single build.
 
