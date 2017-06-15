@@ -5,6 +5,9 @@ resources:
     pointer:
       sourceName: rc-testorg/sample-script-3
       branch: master
+      buildOnPullRequest: true  
+      buildOnRelease: true               
+      buildOnTagPush: true
   - name: test-trigger01-pub
     type: time
     seed:
