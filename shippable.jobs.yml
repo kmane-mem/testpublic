@@ -3,9 +3,10 @@ jobs:
   - name: runsh-job-pub
     type: runSh
     allowPublicAccess: false
-    showBuildStatus: true
+    
     steps:
       - IN: sample-pub
+        showBuildStatus: true
      # - IN: trigger01
     #  - IN: test-trigger01
       - TASK:
@@ -15,9 +16,10 @@ jobs:
   - name: runcliscript-job-pub
     type: runCLI
     allowPublicAccess: true
-    showBuildStatus: true
+    
     steps:      
       - IN: sample-pub
+        showBuildStatus: true
       - TASK:
         - script: IN/sample-pub/gitRepo/echo.sh
         
