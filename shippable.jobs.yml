@@ -19,7 +19,7 @@ jobs:
     
     steps:      
       - IN: sample-pub
-        showBuildStatus: true
+        showBuildStatus: false
       - TASK:
         - script: IN/sample-pub/gitRepo/echo.sh
         
