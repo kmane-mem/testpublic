@@ -27,5 +27,8 @@ jobs:
   - name: manifest_dep
     type: manifest
     steps:
-      - IN: sample_img_pub       
+      - IN: sample_img_pub   
+      
+      
+      
      # - IN: t1
