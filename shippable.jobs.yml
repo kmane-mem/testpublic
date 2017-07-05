@@ -1,6 +1,6 @@
 
 jobs:
-  - name: runsh-job-pub
+  - name: runsh-job-pub1
     type: runSh
     allowPublicAccess: false
     
