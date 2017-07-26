@@ -16,8 +16,8 @@ env:
     - IMAGE_TAG=latest.40
     - IMAGE_PULL=true     
     
-  matrix:
-    - M1=ONE
+ # matrix:
+  #  - M1=ONE
 #Testing for include and exclude branches
 
 #Uncomment below section to disable the private submodules
