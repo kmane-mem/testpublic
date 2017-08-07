@@ -7,7 +7,7 @@ resources:
       branch: master
       buildOnPullRequest: true  
       buildOnRelease: true               
-      buildOnTagPush: true
+      buildOnTagPush: false
   - name: test-trigger01-pub
     type: time
     seed:
