@@ -21,7 +21,7 @@ jobs:
         showBuildStatus: false
       - TASK:
         - script: IN/sample-pub/gitRepo/echo.sh
-     flags: runCli-public
+    flags: runCli-public
 
         
         
