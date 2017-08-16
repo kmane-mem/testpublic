@@ -32,7 +32,7 @@ build:
     - docker --version
     - docker info
     - docker ps
-    - sleep 1m
+   #- sleep 1m
 integrations:    
   notifications:
     - integrationName: notify-slack 
