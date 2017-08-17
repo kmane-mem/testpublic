@@ -1,5 +1,5 @@
 resources:
-  - name: sample-pub
+  - name: sample-gitrepo-17
     type: gitRepo
     integration: github
     pointer:
@@ -8,12 +8,12 @@ resources:
       buildOnPullRequest: true  
       buildOnRelease: true               
       buildOnTagPush: true
-  - name: test-trigger01-pub
+  - name: test-trigger01-pub-17
     type: time
     seed:
       interval: "*/4 * * * *"
     flags: t1
-  - name: sample_img_pub
+  - name: sample_img_pub-17
     type: image
     integration: ship-docker-1
     pointer:
