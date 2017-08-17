@@ -1,16 +1,16 @@
 
 jobs:
-  - name: runsh-job-pub1
+  - name: runsh-job-pub1-17
     type: runSh
     allowPublicAccess: false
     
     steps:
-      - IN: sample-pub
+      - IN: sample-gitrepo-17
         showBuildStatus: true
      # - IN: trigger01
     #  - IN: test-trigger01
       - TASK:
-        - script: IN/sample-pub/gitRepo/echo.sh
+        - script: IN/sample-gitrepo-17/gitRepo/echo.sh
     flags: job1
     
   - name: runcliscript-job-pub
@@ -18,16 +18,16 @@ jobs:
     allowPublicAccess: true
     
     steps:      
-      - IN: sample-pub
+      - IN: sample-gitrepo-17
         showBuildStatus: false
       - TASK:
-        - script: IN/sample-pub/gitRepo/echo.sh
+        - script: IN/sample-gitrepo-17/gitRepo/echo.sh
         
         
   - name: manifest_dep
     type: manifest
     steps:
-      - IN: sample_img_pub   
+      - IN: sample_img_pub-17   
       
       
       
