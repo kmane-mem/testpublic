@@ -13,7 +13,7 @@ jobs:
         - script: IN/sample-gitrepo-17/gitRepo/echo.sh
     flags: job1
     
-  - name: runcliscript-job-pub
+  - name: runcliscript-job-pub-17
     type: runCLI
     allowPublicAccess: true
     
@@ -24,7 +24,7 @@ jobs:
         - script: IN/sample-gitrepo-17/gitRepo/echo.sh
         
         
-  - name: manifest_dep
+  - name: manifest_dep-17
     type: manifest
     steps:
       - IN: sample_img_pub-17   
