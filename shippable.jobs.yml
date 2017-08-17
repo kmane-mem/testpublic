@@ -18,7 +18,7 @@ jobs:
     allowPublicAccess: true
     steps:      
       - IN: sample-pub
-        showBuildStatus: false
+        showBuildStatus: true
       - TASK:
         - script: IN/sample-pub/gitRepo/echo.sh
     flags: runCli-public
