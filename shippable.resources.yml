@@ -8,6 +8,7 @@ resources:
       buildOnPullRequest: true  
       buildOnRelease: true               
       buildOnTagPush: false
+    flags: collab-added
   - name: test-trigger01-pub
     type: time
     seed:
