@@ -1,1 +1,1 @@
-echo "hello from public project"
+echo "hello from public project!"
