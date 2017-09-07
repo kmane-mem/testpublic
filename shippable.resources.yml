@@ -3,20 +3,22 @@ resources:
     type: gitRepo
     integration: github
     pointer:
-      sourceName: rc-testorg/sample-script-3
+      sourceName: bell-rc/testpublic
       branch: master
       buildOnPullRequest: true  
       buildOnRelease: true               
       buildOnTagPush: false
     flags: collab-added
+    
   - name: test-trigger01-pub
     type: time
     seed:
       interval: "*/4 * * * *"
     flags: t1
+    
   - name: sample_img_pub
     type: image
-    integration: ship-docker-1
+    integration: docker
     pointer:
       sourceName: "shippabledocker/pipelinev2"
     seed:
